@@ -1,0 +1,144 @@
+
+*{
+    margin: 0px;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: silver;
+    height: 8%;
+
+
+}
+.head{
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    padding: 10px 0px;
+}
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    width: 65%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0px;
+    font-size: large;
+
+}
+
+     
+.img{
+    width: 100%;
+    height: 80vh;
+}
+.About{
+    display: flex;
+    font-size: larger;
+    background-color: darksalmon;
+}
+.img1{
+  width: 180%;
+  height: 70%;
+  margin: 150px; 
+}
+.fudinfo{
+    font-size: large;
+    margin: 450px;
+    text-align: center;
+
+
+}
+#head2{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#gridimg{
+    display:grid ;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin-top: 150px;
+    margin-left: 400px;
+    margin-right: 400px;
+    row-gap: 20px;
+    column-gap: 10px;
+
+}
+.one{
+    grid-column: 1;
+    grid-row: 1/3;
+}
+.two{
+    grid-column: 2;
+    grid-row: 1;
+}
+.three{
+    grid-column: 3;
+    grid-row: 1/3;
+
+}
+.four{
+    grid-column: 1/2;
+    grid-row: 3;
+}
+.five{
+    grid-column: 2;
+    grid-row: 2/4;
+}
+.six{
+    grid-column: 3;
+    grid-area: 3;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: silver;
+    padding: 70px;
+
+}
+.footicon{
+    text-align: right;
+    margin-top: 75px;
+    font-size: 40px;
+    margin-right: 60px;
+}
+#fhead{
+    margin:0px 20px;
+    text-align: right;
+    font-size: 30px;
+}
+.lhead{
+    display: flex;
+    justify-content: center;
+
+}
+#lsub{
+    margin-top: 80px;
+    font-size: x-large;
+    list-style: none;
+    display: flex; 
+}
+#lsub>li {
+    margin: 0px 10px;
+    font-weight: 600;
+}
+
+.fticon{
+    font-size: 60px;
+}
+#h4{
+    font-size: large;
+}
+
+.logoimg {
+    width: 100px;
+}
